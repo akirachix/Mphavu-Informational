@@ -4,6 +4,7 @@ import Team from "./components/Team/page";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Process from "./components/Process";
 export default function Home() {
   return (
     <main>
@@ -11,6 +12,7 @@ export default function Home() {
         <Navbar/>
         <HeroSection/>
         <FeaturedAcademies/>
+        <Process/>
         <Team/>
         <Footer/>
       </div>
