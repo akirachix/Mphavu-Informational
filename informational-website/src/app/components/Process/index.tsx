@@ -87,7 +87,7 @@ export default function Process() {
             <div className="border-4 rounded-2xl w-[300px] h-auto p-6 bg-green-500 text-white">
               <h2 className="text-[26px] font-bold font-josefinSans">Monitor your team's progress</h2>
               <p className="mt-4 text-[22px] font-josefinSans">
-                Monitor your team's progress over time with detailed analytics
+                Monitor your teams progress over time with detailed analytics
               </p>
             </div>
             <div className="absolute top-[-15px] right-[-15px] bg-white border-4 rounded-full h-12 w-12 flex items-center justify-center border-green-500">
