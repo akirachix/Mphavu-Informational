@@ -3,6 +3,7 @@ import FeaturedAcademies from "./components/FeaturedAcademies/page";
 import Team from "./components/Team/page";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main>
@@ -11,7 +12,7 @@ export default function Home() {
         <HeroSection/>
         <FeaturedAcademies/>
         <Team/>
-
+        <Footer/>
       </div>
     </main>
   );
