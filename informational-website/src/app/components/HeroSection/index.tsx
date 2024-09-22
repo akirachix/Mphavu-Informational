@@ -4,6 +4,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
+    <div id='home'>
     <div className="relative h-screen" style={{ backgroundImage: 'url(/images/hero-image.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', position: 'relative' }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -20,6 +21,7 @@ const HeroSection = () => {
           Try Spot Us
         </button>
       </div>
+    </div>
     </div>
   );
 };

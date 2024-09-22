@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 const Team = () => {
   return (
+    <div id='team'>
     <div id="members" className="px-4 py-8">
       <h2 className="text-[48px] text-center font-josefinSans font-bold text-custom-blue text-blue-800 mb-6">
         Our Team
@@ -53,6 +54,7 @@ const Team = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

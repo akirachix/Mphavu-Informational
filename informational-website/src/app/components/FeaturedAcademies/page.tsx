@@ -1,6 +1,7 @@
 import Image from "next/image";
 export default function FeaturedAcademies() {
   return (
+    <div id="academies">
     <main className="px-4 sm:px-8 lg:px-16">
       <h1 className="text-center font-bold text-4xl sm:text-4xl lg:text-4xl xl:text-5xl text-blue-800 font-josefinSans mt-5">
         Featured Academies            
@@ -23,5 +24,6 @@ export default function FeaturedAcademies() {
         </div>
       </div>
     </main>
+    </div>
   );
 }

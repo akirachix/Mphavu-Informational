@@ -7,6 +7,7 @@ import { MdEmail } from 'react-icons/md';
 import { HiLocationMarker } from 'react-icons/hi'; 
 const Footer: React.FC = () => {
   return (
+    <div id='contacts'>
     <footer className="bg-green-500 text-white">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pl-[100px]">
@@ -53,6 +54,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
+    </div>
   );
 };
 

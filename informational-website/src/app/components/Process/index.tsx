@@ -4,6 +4,7 @@ import { FaTrophy, FaPlay, FaChartLine } from "react-icons/fa";
 
 export default function Process() {
   return (
+    <div id="services">
     <main>
       <div className="mt-[5%]">
         
@@ -123,5 +124,6 @@ export default function Process() {
         }
       `}</style>
      </main>
+     </div>
   );
 }
