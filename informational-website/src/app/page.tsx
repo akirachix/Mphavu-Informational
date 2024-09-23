@@ -6,24 +6,24 @@ import Footer from "./components/Footer";
 import Process from "./components/Process";
 export default function Page() {
     return (
-        <>
+        <div>
             <Navbar />
-            <section id="home">
+            <section id="home" style={{ scrollMarginTop: '80px' }}>
                 <HeroSection />
             </section>
-            <section id="academies">
+            <section id="academies" style={{ scrollMarginTop: '120px' }}>
                 <FeaturedAcademies />
             </section>
-            <section id="services">
+            <section id="services" style={{ scrollMarginTop: '100px' }}>
                 <Process />
             </section>
-            <section id="team">
+            <section id="team" style={{ scrollMarginTop: '100px' }}>
                 <Team />
             </section>
-            <section id="contacts">
+            <section id="contacts" style={{ scrollMarginTop: '100px' }}>
                 <Footer />
             </section>
-        </>
+        </div>
     );
 }
 

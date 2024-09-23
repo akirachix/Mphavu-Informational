@@ -5,7 +5,10 @@ import { FaTrophy, FaPlay, FaChartLine } from "react-icons/fa";
 export default function Process() {
   return (
     <main>
-      <div className="mt-[5%]">
+      <div className="text-center mt-[8%] mt-10 text-[48px] text-[#283891] font-bold font-josefinsans">
+          How to get started
+        </div>
+      <div className="mt-[3%]">
         
         <div className="flex gap-8 flex-col md:flex-row flex-wrap justify-center px-4 sd:ml-[8%] iPA:w-[1020px]flex-wrap">
           <div className="border-4 rounded-2xl w-full md:w-[32%] max-w-[420px] h-auto p-6 bg-blue-500 text-white">
@@ -35,10 +38,6 @@ export default function Process() {
               Receive detailed insights and recommendations to improve your game
             </p>
           </div>
-        </div>
-
-        <div className="text-center mt-10 text-[48px] text-[#283891] font-bold font-josefinsans">
-          How to get started
         </div>
          
         <div className="flex flex-wrap justify-center gap-10 mt-12 nh:w-[979px] nhm:w-[50%] nhm:ml-[25%] ">

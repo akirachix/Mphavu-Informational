@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkblue: '#002147',
       },
       screens:{
         'nh': {'min': '1000px', 'max': '1278px'},

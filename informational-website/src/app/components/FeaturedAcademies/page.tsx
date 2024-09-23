@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function FeaturedAcademies() {
   return (
-    <main className="px-4 sm:px-8 lg:px-16 ">
+    <main className="px-4 mt-[4%] sm:px-8 lg:px-16 mb-[6%">
       <h1 className="text-center font-bold text-4xl sm:text-4xl lg:text-4xl xl:text-5xl text-blue-800 font-josefinsans mt-5">
         Featured Academies            
       </h1>

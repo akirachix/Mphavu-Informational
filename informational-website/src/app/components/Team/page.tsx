@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Team = () => {
   return (
-    <div id="members" className="px-4 py-8">
-      <h2 className="text-[48px] text-center font-josefinsans font-bold text-custom-blue text-blue-800 mb-6">
+    <div className="px-4 py-8">
+      <h2  id="members" className="text-[48px] text-center font-josefinsans font-bold text-custom-blue text-blue-800 mb-4">
         Our Team
       </h2>
       <div className="flex justify-center mb-8 px-4">
