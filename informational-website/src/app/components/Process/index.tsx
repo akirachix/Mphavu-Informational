@@ -5,40 +5,39 @@ import { FaTrophy, FaPlay, FaChartLine } from "react-icons/fa";
 export default function Process() {
   return (
     <main>
-      <div className="mt-[5%]">
+      <div className="text-center mt-[8%] mt-10 text-[48px] text-[#283891] font-bold font-josefinsans">
+          How to get started
+        </div>
+      <div className="mt-[3%]">
         
         <div className="flex gap-8 flex-col md:flex-row flex-wrap justify-center px-4 sd:ml-[8%] iPA:w-[1020px]flex-wrap">
           <div className="border-4 rounded-2xl w-full md:w-[32%] max-w-[420px] h-auto p-6 bg-blue-500 text-white">
             <FaPlay className="w-9 h-9 mb-4" />
-            <h2 className="text-[26px] font-bold font-josefinSans">Upload your video</h2>
-            <p className="mt-4 text-[22px] font-josefinSans">
+            <h2 className="text-[26px] font-bold font-josefinsans">Upload your video</h2>
+            <p className="mt-4 text-[22px] font-josefinsans">
               Upload your video footage and game statistics
             </p>
           </div>
 
           <div className="border-4 rounded-2xl w-full md:w-[32%] max-w-[420px] h-auto p-6 bg-blue-500 text-white">
             <FaTrophy className="w-10 h-10 mb-4" />
-            <h2 className="text-[26px] font-bold font-josefinSans">
+            <h2 className="text-[26px] font-bold font-josefinsans">
               Spot Us analyzes your video and game stats
             </h2>
-            <p className="mt-4 text-[22px] font-josefinSans">
+            <p className="mt-4 text-[22px] font-josefinsans">
               Our AI technology automatically analyzes your video and game stats
             </p>
           </div>
 
           <div className="border-4 rounded-2xl w-full md:w-[32%] max-w-[420px] h-auto p-6 bg-blue-500 text-white">
             <FaChartLine className="w-10 h-10 mb-4" />
-            <h2 className="text-[26px] font-bold font-josefinSans">
+            <h2 className="text-[26px] font-bold font-josefinsans">
               Get insights and improve your game
             </h2>
-            <p className="mt-4 text-[22px] font-josefinSans">
+            <p className="mt-4 text-[22px] font-josefinsans">
               Receive detailed insights and recommendations to improve your game
             </p>
           </div>
-        </div>
-
-        <div className="text-center mt-10 text-[48px] text-[#283891] font-bold font-josefinSans">
-          How to get started
         </div>
          
         <div className="flex flex-wrap justify-center gap-10 mt-12 nh:w-[979px] nhm:w-[50%] nhm:ml-[25%] ">
@@ -46,8 +45,8 @@ export default function Process() {
          
           <div className="relative flex justify-center">
             <div className="border-4 rounded-2xl w-[300px] h-auto p-6 bg-green-500 text-white">
-              <h2 className="text-[26px] font-bold font-josefinSans">Download the app</h2>
-              <p className="mt-4 text-[22px] font-josefinSans">
+              <h2 className="text-[26px] font-bold font-josefinsans">Download the app</h2>
+              <p className="mt-4 text-[22px] font-josefinsans">
                 Download Spot Us from the App Store or Google Play
               </p>
             </div>
@@ -59,39 +58,39 @@ export default function Process() {
        
           <div className="relative flex justify-center">
             <div className="border-4 rounded-2xl w-[300px] h-auto p-6 bg-green-500 text-white">
-              <h2 className="text-[26px] font-bold font-josefinSans">Upload your video</h2>
-              <p className="mt-4 text-[22px] font-josefinSans">
+              <h2 className="text-[26px] font-bold font-josefinsans">Upload your video</h2>
+              <p className="mt-4 text-[22px] font-josefinsans">
                 Record your game footage using the app or upload an existing video
               </p>
             </div>
             <div className="absolute top-[-15px] right-[-15px] bg-white border-4 rounded-full h-12 w-12 flex items-center justify-center border-green-500">
-              <span className="font-josefinSans font-bold">2</span>
+              <span className="font-josefinsans font-bold">2</span>
             </div>
           </div>
 
         
           <div className="relative flex justify-center">
             <div className="border-4 rounded-2xl w-[300px] h-auto p-6 bg-green-500 text-white">
-              <h2 className="text-[26px] font-bold font-josefinSans">Get insights & improve your game</h2>
-              <p className="mt-4 text-[22px] font-josefinSans">
+              <h2 className="text-[26px] font-bold font-josefinsans">Get insights & improve your game</h2>
+              <p className="mt-4 text-[22px] font-josefinsans">
                 Receive instant feedback and detailed insights
               </p>
             </div>
             <div className="absolute top-[-15px] right-[-15px] bg-white border-4 rounded-full h-12 w-12 flex items-center justify-center border-green-500">
-              <span className="font-josefinSans font-bold">3</span>
+              <span className="font-josefinsans font-bold">3</span>
             </div>
           </div>
 
 
           <div className="relative flex justify-center">
             <div className="border-4 rounded-2xl w-[300px] h-auto p-6 bg-green-500 text-white">
-              <h2 className="text-[26px] font-bold font-josefinSans">Monitor your teams progress</h2>
-              <p className="mt-4 text-[22px] font-josefinSans">
+              <h2 className="text-[26px] font-bold font-josefinsans">Monitor your teams progress</h2>
+              <p className="mt-4 text-[22px] font-josefinsans">
                 Monitor your teams progress over time with detailed analytics
               </p>
             </div>
             <div className="absolute top-[-15px] right-[-15px] bg-white border-4 rounded-full h-12 w-12 flex items-center justify-center border-green-500">
-              <span className="font-josefinSans font-bold">4</span>
+              <span className="font-josefinsans font-bold">4</span>
             </div>
           </div>
         </div>
